@@ -1,35 +1,52 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+// No olvides estas importaciones en tus componentes
+ // Si tienes estilos CSS
 
-function App() {
-  const [count, setCount] = useState(0)
+
+
+// ProductCard.jsx
+function ProductCard() {
+  const [likes, setLikes] = useState(0);
+   // Función para incrementar los likes
+   const handleLike = () => {
+    setLikes(likes + 1); // Actualiza el estado sumando 1
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+  <div>
+
+    <div className="max-w-sm bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+      <img
+        src="https://picsum.photos/id/237/600/400"
+        alt="Producto"
+        className="w-full h-48 object-cover"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold text-gray-800">Perrito</h3>
+        <p className="text-gray-600 text-sm mt-2">
+          Descripción breve del producto. Algo llamativo y útil para el usuario.
         </p>
+        <div className="mt-4 flex justify-between items-center">
+          <span className="text-blue-600 font-bold text-lg">€499.99</span>
+
+          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
+            onClick={handleLike}> 
+            Comprar
+          </button>
+        </div>
+        <p className="text-green-600 text-sm mt-2">Compras: {likes}</p> {/* Muestra los likes */}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  </div>
+  );
+
 }
 
-export default App
+
+export default ProductCard;
+
+
+
