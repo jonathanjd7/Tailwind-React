@@ -32,7 +32,17 @@ Asegúrate de estar en la carpeta correcta del proyecto.
 
 #ESTRUCTURA DEL PROYECTO.
 
+   1. EL CONTENIDO PRINCIPAL CON LA INSTALACION DE VITE, LAS CONFIGURACIONES DE PRITTER, ESLINT, ETC..
+
 ![CARPETA JPG](https://github.com/user-attachments/assets/f663f3cb-b762-416d-9fac-19e530566071)
+
+2 . EN LA CARPETA SRC SE ENCUENTRA EL CONTENIDO DE App.jsx || App.css || Index.css y las carpetas con contenido necesario
+![SRC JPG](https://github.com/user-attachments/assets/6765ca42-0e6b-4cc5-ae9d-942f01e77547)
+
+3. CARPETA COMPONENTS : incluye HEADER, FOOTER, PRODUCTOCARD, SEARCHBAR
+   ![comp jpg](https://github.com/user-attachments/assets/3f046242-dc42-4d4b-866e-838ef6059ee5)
+
+
 
 #DESCRIPCION DEL PROYECTO
 - El proyecto esta dividido en varias secciones, esta el HTML con la estructura basica, desde la cual se vincula con el el documento App.jsx
