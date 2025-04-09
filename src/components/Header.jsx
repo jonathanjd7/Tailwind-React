@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
     return (
     <header>
-        <h1> Pelis Gratis HD  </h1>
+        <h1> Pelis  HD  </h1>
         <nav>
           <a href="#">Estrenos</a>
           <a href="#">Más Vistas 2025</a>

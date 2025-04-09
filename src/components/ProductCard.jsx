@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaShoppingCart } from 'react-icons/fa';
 
 
 function ProductCard({ title, description, price, imageUrl }) {
@@ -22,9 +23,11 @@ function ProductCard({ title, description, price, imageUrl }) {
         <div className="mt-4 flex justify-between items-center">
           <span className="text-blue-600 font-bold text-lg">{price} €</span>
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover:bg-fuchsia-600"
+            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors hover:bg-fuchsia-600 flex items-center justify-center m-3 tracking-tight"
             onClick={handleLike}
           >
+            <div className="px-2"><FaShoppingCart/> </div>
+           
             Comprar
           </button>
         </div>
