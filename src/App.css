@@ -18,6 +18,52 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+header {
+  background-color: #dee2e2;
+  padding: 10px;
+  
+}
+
+header h1 {
+  color: #888;
+  margin: 20px;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: rgb(250, 0, 0);
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 2em;
+ 
+}
+footer a {
+  color: #888;
+  text-decoration: none;
+  padding: 20px;
+}
+footer p {
+  color: aqua;
+  font-size: medium;
+}
+
+
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
