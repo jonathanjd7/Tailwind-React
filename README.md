@@ -30,6 +30,10 @@ Si el puerto 5173 está ocupado, Se usará otro automáticamente
 Si ves errores de dependencias, ejecuta npm install nuevamente
 Asegúrate de estar en la carpeta correcta del proyecto.
 
+#ESTRUCTURA DEL PROYECTO.
+
+![CARPETA JPG](https://github.com/user-attachments/assets/f663f3cb-b762-416d-9fac-19e530566071)
+
 #DESCRIPCION DEL PROYECTO
 - El proyecto esta dividido en varias secciones, esta el HTML con la estructura basica, desde la cual se vincula con el el documento App.jsx
 - En el documento App.jsx esta el contenido principal del proyecto, desde aqui se importan los archivos REACT que sean necesarios y declaran aqui junto con la funcion Principal
