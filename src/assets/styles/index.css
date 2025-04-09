@@ -1,0 +1,5 @@
+@layer components {
+    .mi-boton {
+      @apply bg-blue-500 p-2 rounded-lg hover:bg-blue-600;
+    }
+  }
