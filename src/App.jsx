@@ -14,56 +14,56 @@ function App() {
     {
       id: 1,
       title: "Superman ",
-      description: "SuperMan Movie",
+      description: "Superman enfrenta el desafío de reconciliar su herencia kryptoniana con los valores humanos que lo definen, mientras protege un mundo que cuestiona sus ideales. A través de su ejemplo, demuestra que la bondad y la esperanza son eternas.",
       price: "10.99",
-      imageUrl: "https://hips.hearstapps.com/hmg-prod/images/superman-2025-67640c868e672.jpg?crop=1xw:1xh;center,top&resize=980:",
+      imageUrl: "https://globalplay.ar/wp-content/uploads/2024/12/Superman-2025-1-scaled-1.webp",
     },
     {
       id: 2,
-      title: "Capitan America",
-      description: "Descripción del producto 2",
+      title: "Capitan America: Brave New World",
+      description: "Cuarta entrega de la franquicia del Capitán América, la primera con Sam Wilson (Anthony Mackie), ex paracaidista del ejército reconvertido en Vengador como Falcon, llevando el uniforme y el escudo en lugar del retirado Steve Rogers (Chris Evans).",
       price: "29.99",
       imageUrl: "https://erikstore.com/blog/wp-content/uploads/2024/12/Captain_America_Brave_New_World.jpg",
     },
     {
       id: 3,
-      title: "Nieve",
-      description: "Descripción del producto 3",
+      title: "Los Pecadores",
+      description: "Ambientada en los años 30 (durante la Ley Seca), dos hermanos gemelos (interpretados ambos por el actor Michael B. Jordan) regresan a su ciudad natal para empezar de cero. Pero se dan cuenta de que un poder maligno mucho más temible aguarda ansioso su regreso a casa:  y es que los vampiros han tomado el control del lugar.",
       price: "1.99",
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Ax7TlMdBc8KgwpP_zUUCWR3Ay51s7T2J3w&s",
+      imageUrl: "https://es.web.img3.acsta.net/img/4e/56/4e56af2ac8498963ab5f1e2003f26743.jpg",
     },
     {
       id: 4,
       title: "BlancaNieves",
-      description: "Descripción del producto 4",
+      description: "Blanca Nieves está dirigida por Marc Webb, quien saltó a la fama después de dirigir las películas de Spiderman con Andrew Garfield como protagonista. El guion está co-escrito por Greta Gerwig, la misma tras el éxito de Barbie.",
       price: "2.99",
       imageUrl: "https://www.ociostock.com/cms/site_0001/comunicados/img_381899_644fd0eddc9692ead70fae8694b9d848_1.jpg",
     },
     {
       id: 5,
-      title: "Stitch",
-      description: "Descripción del producto 5",
+      title: "Lilo & Stitch",
+      description: "Lilo es una niña solitaria que vive únicamente con su hermana Nani, quien lucha por mantener y que los servicios sociales las separen, que un día su camino se cruza con Stitch, un proyecto alienígena creado con la única intención de destruir. Desde ese momento Lilo y Stitch se vuelven inseparables y se ayudan mutuamente.",
       price: "4.99",
       imageUrl: "https://imagenes.20minutos.es/files/image_640_auto/uploads/imagenes/2024/11/25/lilo-stitch.jpeg",
     },
     {
       id: 6,
       title: "Shutter Island",
-      description: "Descripción del producto 6",
+      description: "En 1954 el agente Teddy Daniels (Leonardo DiCaprio) y su compañero Check Aule (Mark Ruffalo) son enviados a la isla de Shutter Island a investigar en un hospital psiquiátrico donde están internados peligrosos criminales. Una de las pacientes, Rachel Solando (Emily Mortimer / Patricia Clarkson).",
       price: "7.99",
       imageUrl: "https://pymstatic.com/21157/conversions/peliculas-de-suspense-small-16_9.jpg",
     },
     {
       id: 7,
       title: "Avatar 2",
-      description: "Avatar 2",
+      description: "Varios años después de los sucesos ocurridos en Avatar (2009), volvemos a Pandora donde Jake Sully (Sam Worthington) y Neytiri (Zoe Saldana) han formado una familia. La pareja formada por el ex-humano amigo de los Na'vi y la hija del anterior jefe del clan, además de sus hijos, viajarán más allá de los bosques de Pandora a entornos subacuáticos y volcánicos.",
       price: "5.15",
       imageUrl: "https://hips.hearstapps.com/hmg-prod/images/avatar-66ca0a9027f05.jpg?crop=1xw:1xh;center,top&resize=980:*",
     },
     {
       id: 8,
       title: "Aquaman",
-      description: "Descripción del producto 8",
+      description: "Arthur Curry, también conocido como Aquaman (Jason Momoa), es un habitante de un poderoso reino subacuático que recibe el nombre de la Atlántida. En esta película repleta de acción y aventura conoceremos sus orígenes, desde que era un niño criado por un hombre humano y considerado un paria por los suyos",
       price: "10.99",
       imageUrl: "https://media.revistagq.com/photos/5ca5f1b3f46488687cf49211/16:9/w_1280,c_limit/peliculas_mas_taquilleras_5260.jpg",
     },
@@ -86,7 +86,7 @@ function App() {
     <div>
       <Header />
      
-      <div className="min-h-screen flex flex-col items-center bg-gray-600 p-4">
+      <div className="min-h-screen flex flex-col items-center bg-blue-600 p-4">
         <SearchBar onSearch={handleSearch} />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">

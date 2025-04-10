@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  max-width: ;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #046991;
 }
 
 .logo {
@@ -18,17 +19,25 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.text-outline {
+  -webkit-text-stroke: 1px red; /* Puedes cambiar el color y el grosor */
+}
+.text-outline {
+  -webkit-text-stroke: 1px blue; /* Puedes cambiar el color y el grosor */
+}
+
 header {
-  background-color: #dee2e2;
+  background-color: #a7f0f0;
   padding: 10px;
   
 }
 
 header h1 {
-  color: #888;
+  color: #ffffff;
   margin: 20px;
   padding: 20px;
 }
+
 
 nav ul {
   list-style-type: none;
@@ -44,9 +53,6 @@ nav a {
   font-size: 20px;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
 footer {
   margin-top: 2em;
  
@@ -59,6 +65,18 @@ footer a {
 footer p {
   color: aqua;
   font-size: medium;
+}
+
+footer a:visited {
+  color: #1aac00;
+}
+footer a:hover {
+  color: #6aff00;
+  text-decoration: underline;
+}
+footer a:active {
+  color: #00fc08;
+  text-decoration: underline;
 }
 
 
