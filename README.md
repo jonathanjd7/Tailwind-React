@@ -23,12 +23,17 @@ Pagina Web Peliculas
 
  Ejecuta npm run dev para iniciar el servidor de desarrollo.
  La URL será típicamente http://localhost:5173.
+ 
+ -Instalar react-icons si no lo tienes. Desde la terminal en la raiz del proyecto
+ -> npm install react-icons
 
  🚨 Problemas Comunes:
 
 Si el puerto 5173 está ocupado, Se usará otro automáticamente
 Si ves errores de dependencias, ejecuta npm install nuevamente
 Asegúrate de estar en la carpeta correcta del proyecto.
+
+
 
 #ESTRUCTURA DEL PROYECTO.
 
