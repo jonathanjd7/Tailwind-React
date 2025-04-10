@@ -16,7 +16,7 @@ function ProductCard({ title, description, price, imageUrl }) {
       <img
         src={imageUrl}
         alt={title}
-        className="w-48 h-48 object-cover rounded-mb mb-4 mx-auto mt-6"
+        className="w-48 h-48 object-cover rounded-mb mb-4 mx-auto mt-6 rounded 2x1 transition duration-300 ease-in-out hover:scale-110 hover:shadow-xl"
       />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-gray-800">{title}</h3>

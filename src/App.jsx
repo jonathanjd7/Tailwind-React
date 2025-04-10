@@ -44,7 +44,7 @@ function App() {
       title: "Lilo & Stitch",
       description: "Lilo es una niña solitaria que vive únicamente con su hermana Nani, quien lucha por mantener y que los servicios sociales las separen, que un día su camino se cruza con Stitch, un proyecto alienígena creado con la única intención de destruir. Desde ese momento Lilo y Stitch se vuelven inseparables y se ayudan mutuamente.",
       price: "4.99",
-      imageUrl: "https://imagenes.20minutos.es/files/image_640_auto/uploads/imagenes/2024/11/25/lilo-stitch.jpeg",
+      imageUrl: "https://images.justwatch.com/poster/322495639/s718/lilo-y-stitch-2024.jpg",
     },
     {
       id: 6,
@@ -77,7 +77,8 @@ function App() {
     const filtered = products.filter(
       (product) =>
         product.title.toLowerCase().includes(query.toLowerCase()) ||
-        product.description.toLowerCase().includes(query.toLowerCase())
+        product.description.toLowerCase().includes(query.toLowerCase()) ||
+        product.price.toLowerCase().includes(query.toLowerCase())
     );
     setFilteredProducts(filtered); // Actualiza los productos filtrados
   };

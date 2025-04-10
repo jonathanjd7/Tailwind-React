@@ -12,7 +12,7 @@ function SearchBar({ onSearch }) {
     <input
       type="text" placeholder="Buscar productos..." 
       value={query} onChange={handleInputChange}
-      className="border rounded px-4 py-2 bg-blue-500 text-amber-300"
+      className="border rounded px-4 py-2 bg-neutral-50 text-amber-300"
     />
   );
 }
